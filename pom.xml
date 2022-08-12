@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>18</java.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
+		<feign-reactor.version>3.2.4</feign-reactor.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -46,27 +47,27 @@
 		<dependency>
 			<groupId>com.playtika.reactivefeign</groupId>
 			<artifactId>feign-reactor-spring-configuration</artifactId>
-			<version>3.2.4</version>
+			<version>${feign-reactor.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.playtika.reactivefeign</groupId>
 			<artifactId>feign-reactor-cloud</artifactId>
-			<version>3.2.4</version>
+			<version>${feign-reactor.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.playtika.reactivefeign</groupId>
 			<artifactId>feign-reactor-webclient</artifactId>
-			<version>3.2.4</version>
+			<version>${feign-reactor.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.playtika.reactivefeign</groupId>
 			<artifactId>feign-reactor-java11</artifactId>
-			<version>3.2.4</version>
+			<version>${feign-reactor.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.playtika.reactivefeign</groupId>
 			<artifactId>feign-reactor-jetty</artifactId>
-			<version>3.2.4</version>
+			<version>${feign-reactor.version}</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
